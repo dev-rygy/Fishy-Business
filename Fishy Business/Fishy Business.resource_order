@@ -24,10 +24,10 @@
     {"name":"obj_rmChangeToToxicPond","order":4,"path":"objects/obj_rmChangeToToxicPond/obj_rmChangeToToxicPond.yy",},
     {"name":"obj_rmChangeToOcean","order":3,"path":"objects/obj_rmChangeToOcean/obj_rmChangeToOcean.yy",},
     {"name":"obj_rmChangeToPond","order":1,"path":"objects/obj_rmChangeToPond/obj_rmChangeToPond.yy",},
-    {"name":"rm_toxic_pond","order":3,"path":"rooms/rm_toxic_pond/rm_toxic_pond.yy",},
     {"name":"rm_pond","order":2,"path":"rooms/rm_pond/rm_pond.yy",},
     {"name":"bgr_pond","order":2,"path":"sprites/bgr_pond/bgr_pond.yy",},
     {"name":"bgr_toxic_pond","order":3,"path":"sprites/bgr_toxic_pond/bgr_toxic_pond.yy",},
     {"name":"bgr_ocean","order":1,"path":"sprites/bgr_ocean/bgr_ocean.yy",},
+    {"name":"spr_player_girl","order":4,"path":"sprites/spr_player_girl/spr_player_girl.yy",},
   ],
 }
