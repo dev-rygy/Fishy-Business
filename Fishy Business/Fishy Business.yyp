@@ -36,10 +36,12 @@
     "IDEVersion": "2023.8.2.106",
   },
   "resources": [
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
+    {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},},
+    {"id":{"name":"Overworld","path":"rooms/Overworld/Overworld.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Overworld","path":"rooms/Overworld/Overworld.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
