@@ -27,6 +27,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bgr","folderPath":"folders/Sprites/bgr.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Sprites/Tilesets.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"Tilemap.aseprite","CopyToMask":-1,"filePath":"datafiles",},
@@ -37,10 +38,12 @@
     "IDEVersion": "2023.8.2.106",
   },
   "resources": [
+    {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
     {"id":{"name":"rm_ocean","path":"rooms/rm_ocean/rm_ocean.yy",},},
     {"id":{"name":"math","path":"scripts/math/math.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_rmChangeToLake","path":"objects/obj_rmChangeToLake/obj_rmChangeToLake.yy",},},
+    {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},},
     {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},},
     {"id":{"name":"bgr_lake","path":"sprites/bgr_lake/bgr_lake.yy",},},
     {"id":{"name":"obj_rmChangeToToxicPond","path":"objects/obj_rmChangeToToxicPond/obj_rmChangeToToxicPond.yy",},},

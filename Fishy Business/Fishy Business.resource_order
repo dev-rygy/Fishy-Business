@@ -16,6 +16,7 @@
     {"name":"bgr","order":2,"path":"folders/Sprites/bgr.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Tilesets","order":5,"path":"folders/Sprites/Tilesets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"rm_ocean","order":1,"path":"rooms/rm_ocean/rm_ocean.yy",},
