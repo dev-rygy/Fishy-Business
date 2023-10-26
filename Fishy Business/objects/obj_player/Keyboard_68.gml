@@ -3,7 +3,7 @@
 
 self.x = self.x + xVelocity
 
-
+set_animation("right");
 
 
 

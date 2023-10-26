@@ -34,10 +34,11 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"rm_ocean","path":"rooms/rm_ocean/rm_ocean.yy",},},
+    {"id":{"name":"math","path":"scripts/math/math.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"obj_rmChangeToLake","path":"objects/obj_rmChangeToLake/obj_rmChangeToLake.yy",},},
     {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},},

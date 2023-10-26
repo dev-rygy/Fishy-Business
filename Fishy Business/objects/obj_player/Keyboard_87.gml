@@ -4,7 +4,7 @@
 
 self.y = self.y - yVelocity
 
-
+set_animation("up");
 
 
 
