@@ -31,5 +31,6 @@
     {"name":"bgr_pond","order":2,"path":"sprites/bgr_pond/bgr_pond.yy",},
     {"name":"bgr_toxic_pond","order":3,"path":"sprites/bgr_toxic_pond/bgr_toxic_pond.yy",},
     {"name":"bgr_ocean","order":1,"path":"sprites/bgr_ocean/bgr_ocean.yy",},
+    {"name":"spr_player_girl","order":4,"path":"sprites/spr_player_girl/spr_player_girl.yy",},
   ],
 }

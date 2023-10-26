@@ -55,6 +55,7 @@
     {"id":{"name":"bgr_pond","path":"sprites/bgr_pond/bgr_pond.yy",},},
     {"id":{"name":"bgr_toxic_pond","path":"sprites/bgr_toxic_pond/bgr_toxic_pond.yy",},},
     {"id":{"name":"bgr_ocean","path":"sprites/bgr_ocean/bgr_ocean.yy",},},
+    {"id":{"name":"spr_player_girl","path":"sprites/spr_player_girl/spr_player_girl.yy",},},
     {"id":{"name":"rm_lake","path":"rooms/rm_lake/rm_lake.yy",},},
   ],
   "RoomOrderNodes": [
