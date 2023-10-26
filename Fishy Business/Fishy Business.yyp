@@ -40,8 +40,8 @@
   "resources": [
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
     {"id":{"name":"rm_ocean","path":"rooms/rm_ocean/rm_ocean.yy",},},
-    {"id":{"name":"math","path":"scripts/math/math.yy",},},
-    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"CollisionFunc","path":"scripts/CollisionFunc/CollisionFunc.yy",},},
+    {"id":{"name":"BoundFunc","path":"scripts/BoundFunc/BoundFunc.yy",},},
     {"id":{"name":"obj_rmChangeToLake","path":"objects/obj_rmChangeToLake/obj_rmChangeToLake.yy",},},
     {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},},
     {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},},

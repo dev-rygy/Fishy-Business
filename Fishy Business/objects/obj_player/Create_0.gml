@@ -1,6 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Tilemap Layers
+tile_width = 16;
+tile_height = 16;
+
+layer_id_1 = layer_get_id("Collision_Tiles_1");
+ct_layer_id_1 = layer_tilemap_get_id(layer_id_1);
+
+layer_id_2 = layer_get_id("Collision_Tiles_2");
+ct_layer_id_2 = layer_tilemap_get_id(layer_id_2);
+
+// Walking Animation
 function set_animation(state)
 {
 	new_animation = variable_struct_get(animations, state);

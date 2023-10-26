@@ -20,6 +20,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"rm_ocean","order":1,"path":"rooms/rm_ocean/rm_ocean.yy",},
+    {"name":"CollisionFunc","order":1,"path":"scripts/CollisionFunc/CollisionFunc.yy",},
     {"name":"obj_rmChangeToLake","order":2,"path":"objects/obj_rmChangeToLake/obj_rmChangeToLake.yy",},
     {"name":"spr_square","order":3,"path":"sprites/spr_square/spr_square.yy",},
     {"name":"obj_rmChangeToToxicPond","order":4,"path":"objects/obj_rmChangeToToxicPond/obj_rmChangeToToxicPond.yy",},
