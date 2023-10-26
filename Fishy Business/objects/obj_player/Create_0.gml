@@ -12,10 +12,13 @@ layer_id_2 = layer_get_id("Collision_Tiles_2");
 ct_layer_id_2 = layer_tilemap_get_id(layer_id_2);
 
 // Walking Animation
+
+frame_index = 0
 function set_animation(state)
 {
 	new_animation = variable_struct_get(animations, state);
 	animation_frames = new_animation.frames;
+	frame_index = 0;
 }
 
 animations = {
@@ -26,8 +29,4 @@ animations = {
 	down:	{ frames: [0, 1, 2, 3] },
 };
 
-image_index = 16;
-
 set_animation("idle");
-
-show_debug_message(animation_frames);
