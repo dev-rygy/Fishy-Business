@@ -8,6 +8,16 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_3543FA33","path":"rooms/rm_lake/rm_lake.yy",},
+    {"name":"inst_5BCAA9EA","path":"rooms/rm_lake/rm_lake.yy",},
+    {"name":"inst_45FA9BD6","path":"rooms/rm_lake/rm_lake.yy",},
+    {"name":"inst_23E5242F","path":"rooms/rm_lake/rm_lake.yy",},
+  ],
+  "isDnd": false,
+  "layers": [
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5BCAA9EA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rmChangeToPond","path":"objects/obj_rmChangeToPond/obj_rmChangeToPond.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_45FA9BD6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_rmChangeToOcean","path":"objects/obj_rmChangeToOcean/obj_rmChangeToOcean.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":640.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23E5242F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fishSpawner","path":"objects/obj_fishSpawner/obj_fishSpawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":640.0,},
   ],
   "isDnd": false,
   "layers": [
