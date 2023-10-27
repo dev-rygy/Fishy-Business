@@ -37,8 +37,15 @@
     "IDEVersion": "2023.6.0.92",
   },
   "resources": [
+<<<<<<< HEAD
     {"id":{"name":"rm_ocean","path":"rooms/rm_ocean/rm_ocean.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+=======
+    {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
+    {"id":{"name":"rm_ocean","path":"rooms/rm_ocean/rm_ocean.yy",},},
+    {"id":{"name":"CollisionFunc","path":"scripts/CollisionFunc/CollisionFunc.yy",},},
+    {"id":{"name":"BoundFunc","path":"scripts/BoundFunc/BoundFunc.yy",},},
+>>>>>>> parent of 11b4175 (Merge pull request #1 from dev-rygy/Minigame)
     {"id":{"name":"obj_rmChangeToLake","path":"objects/obj_rmChangeToLake/obj_rmChangeToLake.yy",},},
     {"id":{"name":"spr_square","path":"sprites/spr_square/spr_square.yy",},},
     {"id":{"name":"bgr_lake","path":"sprites/bgr_lake/bgr_lake.yy",},},
@@ -51,6 +58,10 @@
     {"id":{"name":"bgr_pond","path":"sprites/bgr_pond/bgr_pond.yy",},},
     {"id":{"name":"bgr_toxic_pond","path":"sprites/bgr_toxic_pond/bgr_toxic_pond.yy",},},
     {"id":{"name":"bgr_ocean","path":"sprites/bgr_ocean/bgr_ocean.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"spr_player_girl","path":"sprites/spr_player_girl/spr_player_girl.yy",},},
+>>>>>>> parent of 11b4175 (Merge pull request #1 from dev-rygy/Minigame)
     {"id":{"name":"rm_lake","path":"rooms/rm_lake/rm_lake.yy",},},
   ],
   "RoomOrderNodes": [
