@@ -10,6 +10,6 @@ if (frame_index < (array_length(animation_frames)))
 else
 	frame_index = 0;
 
-show_debug_message(frame_index);
+//show_debug_message(frame_index);
 
 draw_self();
