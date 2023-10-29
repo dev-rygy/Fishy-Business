@@ -19,11 +19,19 @@ function set_animation(state)
 }
 
 animations = {
+	// Full Animation
 	idle:	{ frames: [16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26] },
 	left:	{ frames: [8, 9 , 10, 11] },
 	right:	{ frames: [12, 13, 14, 15] },
 	up:		{ frames: [4, 5, 6, 7] },
 	down:	{ frames: [0, 1, 2, 3] },
+	
+	// Still Frames
+	//idle:	{ frames: [16] },
+	//left:	{ frames: [8] },
+	//right:	{ frames: [12] },
+	//up:		{ frames: [4] },
+	//down:	{ frames: [0] },
 };
 
 set_animation("idle");
