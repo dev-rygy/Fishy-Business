@@ -20,6 +20,8 @@
     {"name":"Tilesets","order":5,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Player","order":8,"path":"folders/Sprites/Player.yy",},
+    {"name":"Girl","order":1,"path":"folders/Sprites/Player/Girl.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_fish_carp","order":1,"path":"objects/obj_fish_carp/obj_fish_carp.yy",},
