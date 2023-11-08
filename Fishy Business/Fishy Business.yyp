@@ -31,18 +31,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Sprites/Tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Girl","folderPath":"folders/Sprites/Player/Girl.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-<<<<<<< Updated upstream
     "IDEVersion": "2023.6.0.92",
-=======
-    "IDEVersion": "2023.8.2.108",
->>>>>>> Stashed changes
   },
   "resources": [
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
@@ -63,7 +57,6 @@
     {"id":{"name":"obj_fish_minnow","path":"objects/obj_fish_minnow/obj_fish_minnow.yy",},},
     {"id":{"name":"obj_fish_lionfish","path":"objects/obj_fish_lionfish/obj_fish_lionfish.yy",},},
     {"id":{"name":"obj_fishSpawner","path":"objects/obj_fishSpawner/obj_fishSpawner.yy",},},
-    {"id":{"name":"spr_player_girl_down","path":"sprites/spr_player_girl_down/spr_player_girl_down.yy",},},
     {"id":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
     {"id":{"name":"obj_fish_reacherfish","path":"objects/obj_fish_reacherfish/obj_fish_reacherfish.yy",},},
     {"id":{"name":"obj_fish_goldenGar","path":"objects/obj_fish_goldenGar/obj_fish_goldenGar.yy",},},
