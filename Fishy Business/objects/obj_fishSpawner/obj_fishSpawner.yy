@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_placeholder",
-    "path": "sprites/spr_placeholder/spr_placeholder.yy",
+    "name": "spr_placeholder_spawner",
+    "path": "sprites/spr_placeholder_spawner/spr_placeholder_spawner.yy",
   },
   "spriteMaskId": null,
   "visible": false,
