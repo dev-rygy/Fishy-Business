@@ -40,6 +40,7 @@
     {"name":"obj_fish_lionfish","order":1,"path":"objects/obj_fish_lionfish/obj_fish_lionfish.yy",},
     {"name":"obj_fishSpawner","order":2,"path":"objects/obj_fishSpawner/obj_fishSpawner.yy",},
     {"name":"rm_minigame","order":1,"path":"rooms/rm_minigame/rm_minigame.yy",},
+    {"name":"obj_fishing_rod","order":3,"path":"objects/obj_fishing_rod/obj_fishing_rod.yy",},
     {"name":"spr_placeholder_fishing_rod","order":1,"path":"sprites/spr_placeholder_fishing_rod/spr_placeholder_fishing_rod.yy",},
     {"name":"obj_fish_reacherfish","order":3,"path":"objects/obj_fish_reacherfish/obj_fish_reacherfish.yy",},
     {"name":"spr_girl_up","order":1,"path":"sprites/spr_girl_up/spr_girl_up.yy",},

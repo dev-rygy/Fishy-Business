@@ -63,6 +63,7 @@
     {"id":{"name":"obj_fish_lionfish","path":"objects/obj_fish_lionfish/obj_fish_lionfish.yy",},},
     {"id":{"name":"obj_fishSpawner","path":"objects/obj_fishSpawner/obj_fishSpawner.yy",},},
     {"id":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
+    {"id":{"name":"obj_fishing_rod","path":"objects/obj_fishing_rod/obj_fishing_rod.yy",},},
     {"id":{"name":"spr_placeholder_fishing_rod","path":"sprites/spr_placeholder_fishing_rod/spr_placeholder_fishing_rod.yy",},},
     {"id":{"name":"obj_fish_reacherfish","path":"objects/obj_fish_reacherfish/obj_fish_reacherfish.yy",},},
     {"id":{"name":"obj_fish_goldenGar","path":"objects/obj_fish_goldenGar/obj_fish_goldenGar.yy",},},
