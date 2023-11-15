@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_shadow_2",
-    "path": "sprites/spr_shadow_2/spr_shadow_2.yy",
+    "name": "spr_shadow_1",
+    "path": "sprites/spr_shadow_1/spr_shadow_1.yy",
   },
   "spriteMaskId": null,
   "visible": true,

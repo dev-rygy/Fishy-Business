@@ -33,10 +33,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"direction","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
   ],
   "solid": false,
-  "spriteId": {
-    "name": "spr_shadow_1",
-    "path": "sprites/spr_shadow_1/spr_shadow_1.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
