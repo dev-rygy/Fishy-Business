@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if ((self.x < -80 || self.x > room_width+80) && (self.y < -80 || self.y > room_height+80)) {
-	instance_destroy(self);
+switch (self.swim_state) {
+	case 0: // Swimming
+		
+		break;
+	case 1: // Exiting
+		
+		break;
 }
