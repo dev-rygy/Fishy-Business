@@ -17,12 +17,12 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"bgr","order":2,"path":"folders/Sprites/bgr.yy",},
+    {"name":"inventory","order":8,"path":"folders/Sprites/inventory.yy",},
+    {"name":"PlaceHolders","order":9,"path":"folders/Sprites/PlaceHolders.yy",},
     {"name":"Player","order":8,"path":"folders/Sprites/Player.yy",},
     {"name":"Tilesets","order":5,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"inventory","order":8,"path":"folders/Sprites/inventory.yy",},
-    {"name":"PlaceHolders","order":9,"path":"folders/Sprites/PlaceHolders.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_fish_carp","order":1,"path":"objects/obj_fish_carp/obj_fish_carp.yy",},
@@ -49,6 +49,7 @@
     {"name":"spr_placeholder_fishing_rod","order":1,"path":"sprites/spr_placeholder_fishing_rod/spr_placeholder_fishing_rod.yy",},
     {"name":"obj_fish_reacherfish","order":3,"path":"objects/obj_fish_reacherfish/obj_fish_reacherfish.yy",},
     {"name":"sSlot","order":1,"path":"sprites/sSlot/sSlot.yy",},
+    {"name":"spr_placeholder_fishingrod_ani","order":2,"path":"sprites/spr_placeholder_fishingrod_ani/spr_placeholder_fishingrod_ani.yy",},
     {"name":"spr_girl_up","order":1,"path":"sprites/spr_girl_up/spr_girl_up.yy",},
   ],
 }
