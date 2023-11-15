@@ -34,8 +34,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_fish",
-    "path": "sprites/spr_fish/spr_fish.yy",
+    "name": "spr_shadow_5",
+    "path": "sprites/spr_shadow_5/spr_shadow_5.yy",
   },
   "spriteMaskId": null,
   "visible": true,
