@@ -48,6 +48,7 @@
     {"id":{"name":"obj_fish_bluegill","path":"objects/obj_fish_bluegill/obj_fish_bluegill.yy",},},
     {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
     {"id":{"name":"CollisionFunc","path":"scripts/CollisionFunc/CollisionFunc.yy",},},
+    {"id":{"name":"obj_fish_objective","path":"objects/obj_fish_objective/obj_fish_objective.yy",},},
     {"id":{"name":"obj_fish_parent","path":"objects/obj_fish_parent/obj_fish_parent.yy",},},
     {"id":{"name":"obj_fish_rainbowTrout","path":"objects/obj_fish_rainbowTrout/obj_fish_rainbowTrout.yy",},},
     {"id":{"name":"BoundFunc","path":"scripts/BoundFunc/BoundFunc.yy",},},

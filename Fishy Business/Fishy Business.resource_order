@@ -28,6 +28,7 @@
     {"name":"spr_fish","order":6,"path":"sprites/spr_fish/spr_fish.yy",},
     {"name":"obj_inventory","order":3,"path":"objects/obj_inventory/obj_inventory.yy",},
     {"name":"CollisionFunc","order":1,"path":"scripts/CollisionFunc/CollisionFunc.yy",},
+    {"name":"obj_fish_objective","order":3,"path":"objects/obj_fish_objective/obj_fish_objective.yy",},
     {"name":"obj_fish_parent","order":2,"path":"objects/obj_fish_parent/obj_fish_parent.yy",},
     {"name":"obj_fish_rainbowTrout","order":1,"path":"objects/obj_fish_rainbowTrout/obj_fish_rainbowTrout.yy",},
     {"name":"spr_girl_idle","order":4,"path":"sprites/spr_girl_idle/spr_girl_idle.yy",},
