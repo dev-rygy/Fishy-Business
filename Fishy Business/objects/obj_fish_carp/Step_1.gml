@@ -5,13 +5,13 @@ var randSeed1;
 switch (swimState) {
 	case 0:
 	// If the fish is swimming and within the outer sixth of the area, there is a 40% chance to swim offscreen
-		if (self.x < room_width/6 || self.x > (room_width/6)*5 || self.y < room_width/6 || self.y > (room_height/6)*5) {
-			randSeed0 = random_range(0, 100);
-			if (randSeed0 <= 40) {
-				self.swimState = 1;
-				self.objectiveReached = true;
-			}
-		}
+		//if (self.x < room_width/6 || self.x > (room_width/6)*5 || self.y < room_width/6 || self.y > (room_height/6)*5) {
+		//	randSeed0 = random_range(0, 100);
+		//	if (randSeed0 <= 40) {
+		//		self.swimState = 1;
+		//		self.objectiveReached = true;
+		//	}
+		//}
 		// Choose a new objective
 		if (objectiveReached) {
 			randSeed0 = random_range(70, 120); // Length

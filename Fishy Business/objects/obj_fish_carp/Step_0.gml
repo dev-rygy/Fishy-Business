@@ -6,10 +6,10 @@ switch (self.swimState) {
 		
 		// Move towards the objective
 		if (self.swimSpeed < 0) {
-			self.swimSpeed += random_range(0, 2);
+			self.swimSpeed += random_range(0, 1);
 		}
 		else {
-			self.swimSpeed += random_range(-2, 2);
+			self.swimSpeed += random_range(-0.5, 0.5);
 		}
 		
 		// Objective reached check
