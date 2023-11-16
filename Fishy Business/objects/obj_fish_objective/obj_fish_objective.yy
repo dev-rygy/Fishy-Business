@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_placeholder_spawner",
-    "path": "sprites/spr_placeholder_spawner/spr_placeholder_spawner.yy",
+    "name": "spr_placeholder_objective",
+    "path": "sprites/spr_placeholder_objective/spr_placeholder_objective.yy",
   },
   "spriteMaskId": null,
   "visible": true,

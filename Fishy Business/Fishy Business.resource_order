@@ -33,6 +33,7 @@
     {"name":"obj_fish_rainbowTrout","order":1,"path":"objects/obj_fish_rainbowTrout/obj_fish_rainbowTrout.yy",},
     {"name":"spr_girl_idle","order":4,"path":"sprites/spr_girl_idle/spr_girl_idle.yy",},
     {"name":"obj_fish_swordfish","order":3,"path":"objects/obj_fish_swordfish/obj_fish_swordfish.yy",},
+    {"name":"spr_placeholder_objective","order":3,"path":"sprites/spr_placeholder_objective/spr_placeholder_objective.yy",},
     {"name":"obj_fish_largemouthBass","order":4,"path":"objects/obj_fish_largemouthBass/obj_fish_largemouthBass.yy",},
     {"name":"obj_mouse","order":4,"path":"objects/obj_mouse/obj_mouse.yy",},
     {"name":"obj_fish_goldfish","order":3,"path":"objects/obj_fish_goldfish/obj_fish_goldfish.yy",},

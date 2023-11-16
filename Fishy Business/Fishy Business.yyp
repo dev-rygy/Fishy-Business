@@ -55,6 +55,7 @@
     {"id":{"name":"spr_girl_idle","path":"sprites/spr_girl_idle/spr_girl_idle.yy",},},
     {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},},
     {"id":{"name":"obj_fish_swordfish","path":"objects/obj_fish_swordfish/obj_fish_swordfish.yy",},},
+    {"id":{"name":"spr_placeholder_objective","path":"sprites/spr_placeholder_objective/spr_placeholder_objective.yy",},},
     {"id":{"name":"obj_player_girl","path":"objects/obj_player_girl/obj_player_girl.yy",},},
     {"id":{"name":"obj_fish_largemouthBass","path":"objects/obj_fish_largemouthBass/obj_fish_largemouthBass.yy",},},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},},
