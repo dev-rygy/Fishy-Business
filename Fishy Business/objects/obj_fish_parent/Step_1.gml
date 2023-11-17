@@ -3,7 +3,7 @@ var randSeed0;
 var randSeed1;
 
 switch (swimState) {
-	case 0:
+	case 0: // Swimming
 	// If the fish is swimming and within the outer sixth of the area, there is a 40% chance to swim offscreen
 		//if (self.x < room_width/6 || self.x > (room_width/6)*5 || self.y < room_width/6 || self.y > (room_height/6)*5) {
 		//	randSeed0 = random_range(0, 100);
@@ -13,22 +13,22 @@ switch (swimState) {
 		//	}
 		//}
 		randSeed0 = random_range(0, 100);
-		if (( distance_to_object(obj_fishing_rod.bobber) < 100 ) && (randSeed0 <= 20)) {
+		if (( distance_to_object(obj_fishing_rod.bobber) < 40 ) && (randSeed0 <= occurenceChance)) {
 			swimState = 2;
 			objectiveReached = true;
 		}
 		
 		// Choose a new objective
 		if (objectiveReached) {
-			randSeed0 = random_range(70, 120); // Length
-			randSeed1 = random_range(-50, 50); // Angle
-			self.objective.x = self.x + lengthdir_x(randSeed0, randSeed1);
-			self.objective.y = self.y + lengthdir_y(randSeed0, randSeed1);
+			randSeed0 = random_range(20, 30); // Length
+			randSeed1 = random_range(-20, 20); // Angle
+			self.objective.x = self.x + lengthdir_x(randSeed0, self.direction + randSeed1);
+			self.objective.y = self.y + lengthdir_y(randSeed0, self.direction + randSeed1);
 			self.objectiveReached = false;
 		}
 		break;
 		
-	case 1:
+	case 1: // Exiting
 		if (objectiveReached) {
 			// Choose an objective on nearest wall
 			if (self.x < room_width/6) { // Left wall
@@ -55,7 +55,7 @@ switch (swimState) {
 			objectiveReached = false;
 		}
 		break;
-	case 2:
+	case 2: // Biting
 		if (objectiveReached) {
 			if (obj_fishing_rod.bobber != noone) {
 				self.objective.x = obj_fishing_rod.bobber.x;
