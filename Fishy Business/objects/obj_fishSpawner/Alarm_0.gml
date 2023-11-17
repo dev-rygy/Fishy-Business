@@ -30,4 +30,5 @@ if (room == rm_minigame) {
 	}
 }
 // Reset alarm to spawn next fish
+alarm_set(1, room_speed * spawnCooldown);
 alarm_set(0, room_speed * spawnCooldown);
