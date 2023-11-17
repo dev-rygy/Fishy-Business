@@ -34,4 +34,15 @@ switch (self.swimState) {
 			self.objectiveReached = true;
 		}
 		break;
+	case 2:
+		// Point towards the objective
+		self.swimDirection = point_direction(self.x, self.y, self.objective.x, self.objective.y);
+		
+		// Move towards the objective
+		self.swimSpeed = 0.6;
+		
+		// Objective reached check
+		if (((self.x < self.objective.x+15) && (self.x > self.objective.x-15)) && ((self.y < self.objective.y+15) && (self.y > self.objective.y-15))) {
+			self.objectiveReached = true;
+		}
 }

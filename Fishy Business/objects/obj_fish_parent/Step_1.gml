@@ -12,7 +12,8 @@ switch (swimState) {
 		//		self.objectiveReached = true;
 		//	}
 		//}
-		if (distance_to_object(obj_fishing_rod.bobber) < 20) {
+		randSeed0 = random_range(0, 100);
+		if (( distance_to_object(obj_fishing_rod.bobber) < 100 ) && (randSeed0 <= 20)) {
 			swimState = 2;
 			objectiveReached = true;
 		}
@@ -56,8 +57,14 @@ switch (swimState) {
 		break;
 	case 2:
 		if (objectiveReached) {
-			self.objective.x = obj_fishing_rod.bobber.x;
-			self.objective.y = obj_fishing_rod.bobber.y;
+			if (obj_fishing_rod.bobber != noone) {
+				self.objective.x = obj_fishing_rod.bobber.x;
+				self.objective.y = obj_fishing_rod.bobber.y;
+			}
+			else {
+				self.swimState = 0;
+			}
 			self.objectiveReached = false;
 		}
+		break;
 }
