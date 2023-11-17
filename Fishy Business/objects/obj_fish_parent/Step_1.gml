@@ -12,11 +12,9 @@ switch (swimState) {
 		//		self.objectiveReached = true;
 		//	}
 		//}
-		if (obj_fishing_rod.bobber != -1) {
-			if (distance_to_object(obj_fishing_rod.bobber) < 20) {
-				swimState = 2;
-				objectiveReached = true;
-			}
+		if (distance_to_object(obj_fishing_rod.bobber) < 20) {
+			swimState = 2;
+			objectiveReached = true;
 		}
 		
 		// Choose a new objective
