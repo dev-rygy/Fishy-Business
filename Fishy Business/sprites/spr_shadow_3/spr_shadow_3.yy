@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_shadow_3",
-  "bbox_bottom": 51,
+  "bbox_bottom": 25,
   "bbox_left": 0,
-  "bbox_right": 63,
-  "bbox_top": 12,
+  "bbox_right": 31,
+  "bbox_top": 6,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aec2f8af-b1f7-4fbf-8908-c504099167c5",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"59fe3a6a-c6be-4b47-8ec7-97268876d212",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 64,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"78a0128e-3419-4b7c-9358-9b4ddb648986","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7548ec2c-5860-4130-b876-da35506a6dc8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"aec2f8af-b1f7-4fbf-8908-c504099167c5","path":"sprites/spr_shadow_3/spr_shadow_3.yy",},},},"Disabled":false,"id":"606cce39-d330-471e-8bf7-716d91dc349c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"59fe3a6a-c6be-4b47-8ec7-97268876d212","path":"sprites/spr_shadow_3/spr_shadow_3.yy",},},},"Disabled":false,"id":"7569bfb2-0f18-42ea-85b3-3f6e9eae553a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 64,
+  "width": 32,
 }
