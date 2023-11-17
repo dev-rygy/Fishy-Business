@@ -5,5 +5,8 @@
 rod_tip_x = x + 200;
 rod_tip_y = y + 50;
 
+is_fishing = false;
+is_casting = false;
+
 image_speed = 0;
 room_speed = 30;
