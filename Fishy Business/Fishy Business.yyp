@@ -93,8 +93,8 @@
     {"id":{"name":"rm_lake","path":"rooms/rm_lake/rm_lake.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
     {"roomId":{"name":"rm_lake","path":"rooms/rm_lake/rm_lake.yy",},},
+    {"roomId":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [
