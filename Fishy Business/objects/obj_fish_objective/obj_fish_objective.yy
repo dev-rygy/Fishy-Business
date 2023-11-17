@@ -1,18 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_fish_reacherfish",
+  "name": "obj_fish_objective",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Trophy",
-    "path": "folders/Objects/Fish/Trophy.yy",
+    "name": "Fish",
+    "path": "folders/Objects/Fish.yy",
   },
-  "parentObjectId": {
-    "name": "obj_fish_parent",
-    "path": "objects/obj_fish_parent/obj_fish_parent.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -28,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_placeholder_objective",
+    "path": "sprites/spr_placeholder_objective/spr_placeholder_objective.yy",
+  },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
