@@ -10,7 +10,7 @@
 		line_length = point_distance(fishing_point_x, fishing_point_y, rod_tip_x, rod_tip_y);
 		
 		// instantiate bob object
-		instance_create_layer(fishing_point_x, fishing_point_y, "Instances", obj_bob)
+		self.bobber = instance_create_layer(fishing_point_x, fishing_point_y, "Instances", obj_bob)
 	
 		// Change fishing flags to true
 		is_fishing = true;
