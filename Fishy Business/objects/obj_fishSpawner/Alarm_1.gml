@@ -55,3 +55,4 @@ else if (randSeed <= 77) { // Largemouth Bass
 else if (randSeed <= 100) { // Carp
 	fishType = obj_fish_carp;
 }
+
