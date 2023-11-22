@@ -17,10 +17,10 @@
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"bgr","order":2,"path":"folders/Sprites/bgr.yy",},
+    {"name":"inventory","order":8,"path":"folders/Sprites/inventory.yy",},
     {"name":"Tilesets","order":5,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"inventory","order":8,"path":"folders/Sprites/inventory.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_fish_carp","order":1,"path":"objects/obj_fish_carp/obj_fish_carp.yy",},

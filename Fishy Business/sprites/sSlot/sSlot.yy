@@ -13,8 +13,8 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1d937c95-6b7b-4b6b-91b2-be085f61fb67",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2f2e42a8-8979-4f41-bbc3-ef6c7d235ff9",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d8dd71aa-09ff-4388-96a7-dedf890da407",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"35bf8831-f2d1-4fda-94b0-c5264dd8814d",},
   ],
   "gridX": 0,
   "gridY": 0,
@@ -78,8 +78,8 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1d937c95-6b7b-4b6b-91b2-be085f61fb67","path":"sprites/sSlot/sSlot.yy",},},},"Disabled":false,"id":"48cde09b-c645-440e-9c6d-c8ae6c294986","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2f2e42a8-8979-4f41-bbc3-ef6c7d235ff9","path":"sprites/sSlot/sSlot.yy",},},},"Disabled":false,"id":"8aca7b98-c2f9-438d-a600-5157aeee0a02","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d8dd71aa-09ff-4388-96a7-dedf890da407","path":"sprites/sSlot/sSlot.yy",},},},"Disabled":false,"id":"8221f799-b298-4fb6-b553-78f35d3b1340","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"35bf8831-f2d1-4fda-94b0-c5264dd8814d","path":"sprites/sSlot/sSlot.yy",},},},"Disabled":false,"id":"ba462d75-e03b-4fe4-acc7-d0e7d9b0f9da","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

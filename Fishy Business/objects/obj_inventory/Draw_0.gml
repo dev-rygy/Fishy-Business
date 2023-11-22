@@ -28,7 +28,10 @@ for (var i = 0; i <INVENTORY_SLOTS; i += 1){
 	
 }
 
-
+if invState = 1 {
+	
+draw_sprite_ext(spr_player_girl,0,x+250,y+100,5,5,0,c_white,1)
+}
 
 
 
