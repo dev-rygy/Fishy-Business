@@ -8,6 +8,8 @@
     {"name":"Fish","order":1,"path":"folders/Objects/Fish.yy",},
     {"name":"Freshwater","order":7,"path":"folders/Objects/Fish/Freshwater.yy",},
     {"name":"Trophy","order":8,"path":"folders/Objects/Fish/Trophy.yy",},
+    {"name":"Rods","order":7,"path":"folders/Objects/Rods.yy",},
+    {"name":"Spawners","order":6,"path":"folders/Objects/Spawners.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
