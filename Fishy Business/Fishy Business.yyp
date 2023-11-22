@@ -43,7 +43,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.106",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
@@ -96,7 +96,6 @@
     {"roomId":{"name":"rm_lake","path":"rooms/rm_lake/rm_lake.yy",},},
     {"roomId":{"name":"rm_minigame","path":"rooms/rm_minigame/rm_minigame.yy",},},
   ],
-  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
