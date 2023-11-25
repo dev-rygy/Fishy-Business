@@ -47,6 +47,7 @@
     {"name":"spr_shadow_4","order":3,"path":"sprites/spr_shadow_4/spr_shadow_4.yy",},
     {"name":"obj_fish_pike","order":6,"path":"objects/obj_fish_pike/obj_fish_pike.yy",},
     {"name":"sItems","order":2,"path":"sprites/sItems/sItems.yy",},
+    {"name":"obj_game_manager","order":8,"path":"objects/obj_game_manager/obj_game_manager.yy",},
     {"name":"spr_girl_left","order":3,"path":"sprites/spr_girl_left/spr_girl_left.yy",},
     {"name":"spr_bob","order":11,"path":"sprites/spr_bob/spr_bob.yy",},
     {"name":"spr_shadow_2","order":1,"path":"sprites/spr_shadow_2/spr_shadow_2.yy",},
