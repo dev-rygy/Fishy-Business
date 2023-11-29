@@ -25,9 +25,9 @@
     {"name":"PlaceHolders","order":9,"path":"folders/Sprites/PlaceHolders.yy",},
     {"name":"Player","order":8,"path":"folders/Sprites/Player.yy",},
     {"name":"Tilesets","order":5,"path":"folders/Sprites/Tilesets.yy",},
+    {"name":"UI","order":12,"path":"folders/Sprites/UI.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"UI","order":12,"path":"folders/Sprites/UI.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_fish_carp","order":1,"path":"objects/obj_fish_carp/obj_fish_carp.yy",},

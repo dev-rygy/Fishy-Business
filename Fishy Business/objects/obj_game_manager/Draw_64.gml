@@ -3,5 +3,5 @@
 
 if (game_state == 2) // When the fish bites onto the rod - draw the meter
 {
-		draw_sprite(
+		//draw_sprite(
 }
