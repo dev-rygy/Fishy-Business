@@ -41,7 +41,6 @@
     {"name":"spr_placeholder_objective","order":3,"path":"sprites/spr_placeholder_objective/spr_placeholder_objective.yy",},
     {"name":"obj_fish_largemouthBass","order":4,"path":"objects/obj_fish_largemouthBass/obj_fish_largemouthBass.yy",},
     {"name":"obj_mouse","order":4,"path":"objects/obj_mouse/obj_mouse.yy",},
-    {"name":"Object21","order":8,"path":"objects/Object21/Object21.yy",},
     {"name":"obj_fish_goldfish","order":3,"path":"objects/obj_fish_goldfish/obj_fish_goldfish.yy",},
     {"name":"obj_fish_catfish","order":2,"path":"objects/obj_fish_catfish/obj_fish_catfish.yy",},
     {"name":"spr_girl_right","order":2,"path":"sprites/spr_girl_right/spr_girl_right.yy",},
