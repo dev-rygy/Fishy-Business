@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+var my_instance;
+my_instance = id;
+
 obj_fishSpawner.numFish++;
 self.swimState = 0; // 0 = swimming, 1 = exiting
 self.objectiveReached = true;
