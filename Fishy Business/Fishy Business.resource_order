@@ -61,7 +61,7 @@
     {"name":"rm_minigame","order":1,"path":"rooms/rm_minigame/rm_minigame.yy",},
     {"name":"spr_placeholder_fishing_rod","order":1,"path":"sprites/spr_placeholder_fishing_rod/spr_placeholder_fishing_rod.yy",},
     {"name":"obj_fish_reacherfish","order":2,"path":"objects/obj_fish_reacherfish/obj_fish_reacherfish.yy",},
-    {"name":"spr_meter_line","order":1,"path":"sprites/spr_meter_line/spr_meter_line.yy",},
+    {"name":"ui_meter_line","order":1,"path":"sprites/ui_meter_line/ui_meter_line.yy",},
     {"name":"obj_fish_goldenGar","order":4,"path":"objects/obj_fish_goldenGar/obj_fish_goldenGar.yy",},
     {"name":"sSlot","order":1,"path":"sprites/sSlot/sSlot.yy",},
     {"name":"spr_placeholder_fishingrod_ani","order":2,"path":"sprites/spr_placeholder_fishingrod_ani/spr_placeholder_fishingrod_ani.yy",},
