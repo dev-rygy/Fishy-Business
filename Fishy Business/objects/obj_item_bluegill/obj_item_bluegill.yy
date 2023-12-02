@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "fish",
-    "path": "folders/Objects/Items/fish.yy",
+    "name": "Fish",
+    "path": "folders/Objects/Items/Fish.yy",
   },
   "parentObjectId": {
     "name": "obj_item_parent",

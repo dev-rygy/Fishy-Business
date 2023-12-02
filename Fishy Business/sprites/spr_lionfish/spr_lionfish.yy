@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e2f1de3e-69cc-4d56-9d62-56333d4c3442",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2cb52274-4a74-4a8a-b8b1-fb822e66f859",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 640,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"11532248-3745-4cc4-8474-b97e9e0a6bf6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"729a4835-3025-44f7-a669-926af8434620","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Freshwater Fish",
-    "path": "folders/Sprites/Fish/Freshwater Fish.yy",
+    "name": "Fish",
+    "path": "folders/Sprites/Fish.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e2f1de3e-69cc-4d56-9d62-56333d4c3442","path":"sprites/spr_lionfish/spr_lionfish.yy",},},},"Disabled":false,"id":"93a54a76-f5da-47cb-8705-0386d89f9a68","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2cb52274-4a74-4a8a-b8b1-fb822e66f859","path":"sprites/spr_lionfish/spr_lionfish.yy",},},},"Disabled":false,"id":"abcf5a8b-51e8-49d7-a76d-15caa1054b57","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
