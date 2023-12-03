@@ -3,6 +3,3 @@
 
 room_goto(rm_lake)
 
-
-
-

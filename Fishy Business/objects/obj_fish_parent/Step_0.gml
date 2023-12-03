@@ -52,8 +52,8 @@ switch (self.swimState) {
 		}
 		break;
 	case 3: // Thrashing
-		//self.swimSpeed = 0;
-		//self.swimDirection = self.swimDirection + (sin(self.counter) * 10);
-		//self.counter++;
+		self.swimSpeed = 0;
+		self.swimDirection = self.swimDirection + (sin(self.counter) * 10);
+		self.counter++;
 		break;
 }

@@ -7,6 +7,3 @@
 
 room_goto(rm_minigame)
 
-
-
-

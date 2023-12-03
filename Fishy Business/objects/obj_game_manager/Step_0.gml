@@ -25,4 +25,3 @@ if (is_caught && game_state == 3)
 	
 	is_caught = false;
 }
-

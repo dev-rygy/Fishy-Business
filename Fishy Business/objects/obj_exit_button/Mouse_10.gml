@@ -2,7 +2,3 @@
 // You can write your code in this editor
 
 instance_create_layer(x,y,"Test",obj_exit_button_pr)
-
-
-
-

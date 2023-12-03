@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fish_caught_screen01",
-    "path": "sprites/spr_fish_caught_screen01/spr_fish_caught_screen01.yy",
+    "name": "spr_fish_caught_screen02",
+    "path": "sprites/spr_fish_caught_screen02/spr_fish_caught_screen02.yy",
   },
   "spriteMaskId": null,
   "visible": true,

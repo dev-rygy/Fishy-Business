@@ -10,3 +10,7 @@ obj_fishing_rod.is_casting = false;
 instance_destroy(self.objective);
 instance_destroy(self);		// TODO: Do not destroy after bite
 // TODO: enter reeling state
+
+
+
+
