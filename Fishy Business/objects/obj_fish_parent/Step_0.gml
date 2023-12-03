@@ -50,4 +50,10 @@ switch (self.swimState) {
 		if (((self.x < self.objective.x+15) && (self.x > self.objective.x-15)) && ((self.y < self.objective.y+15) && (self.y > self.objective.y-15))) {
 			self.objectiveReached = true;
 		}
+		break;
+	case 3: // Thrashing
+		self.swimSpeed = 0;
+		self.swimDirection = self.swimDirection + (sin(self.counter) * 10);
+		self.counter++;
+		break;
 }

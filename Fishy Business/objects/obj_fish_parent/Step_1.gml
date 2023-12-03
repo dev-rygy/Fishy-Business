@@ -67,4 +67,7 @@ switch (swimState) {
 			self.objectiveReached = false;
 		}
 		break;
+	case 3: // Thrashing
+		
+		break;
 }
