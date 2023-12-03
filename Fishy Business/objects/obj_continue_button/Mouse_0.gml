@@ -7,3 +7,4 @@
 
 //room_goto(rm_minigame)
 obj_game_manager.game_state = 4; // Reset the minigame
+room_goto(rm_minigame)
