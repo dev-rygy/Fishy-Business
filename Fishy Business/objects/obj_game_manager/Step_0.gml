@@ -5,7 +5,7 @@
 show_debug_message(game_state);
 
 if (is_caught && game_state == 3)
-{
+{	
 	//Screen randomizer
 	var fishScreen = irandom_range(1,4)
 			
@@ -27,4 +27,23 @@ if (is_caught && game_state == 3)
 	instance_create_layer(room_width/2, room_height/2 + 280, "Buttons", obj_continue_button)
 	
 	is_caught = false;
+}
+
+if (game_state == 4)
+{
+	if (obj_fishing_rod.is_fishing)
+	{
+		instance_destroy(obj_fishing_rod.bobber);
+		instance_destroy(current_fish);
+	}
+	current_fish = noone;
+	
+	obj_fishing_rod.is_fishing = false;
+	obj_fishing_rod.is_casting = false;
+	
+	obj_fishing_rod.tension_meter_direction = 1;
+	obj_fishing_rod.tension_meter_current = obj_fishing_rod.tension_meter_max / 2;
+	obj_fishing_rod.tension_meter_current_ui = obj_fishing_rod.tension_meter_ymin + obj_fishing_rod.tension_meter_current;
+	
+	game_state = 1;
 }

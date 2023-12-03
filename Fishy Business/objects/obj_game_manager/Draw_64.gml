@@ -25,15 +25,3 @@ if (game_state == 3)
 	
 	// TODO: Add the fish to the player's inventory
 }
-
-if (game_state == 4)
-{
-	instance_destroy(obj_fishing_rod.bobber);
-	instance_destroy(current_fish);
-	current_fish = noone;
-	
-	obj_fishing_rod.is_fishing = false;
-	obj_fishing_rod.is_casting = false;
-	
-	game_state = 1;
-}
