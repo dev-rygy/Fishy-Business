@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(game_state = 0)
+if(game_state == 0)
 {
 	draw_sprite(spr_w_button,0,1350,600)
 	draw_text(1270,575,"UP -")

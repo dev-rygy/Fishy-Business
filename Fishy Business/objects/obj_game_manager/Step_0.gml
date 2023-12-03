@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if (isCaught && game_state == 3)
+if (is_caught && game_state == 3)
 {
 	//Screen randomizer
 	var fishScreen = irandom_range(1,4)
