@@ -12,4 +12,6 @@ image_speed = 0;
 room_speed = 30;
 
 tension_meter_direction = 1;
-tension_meter_current = tension_meter_ymax;
+tension_meter_current = tension_meter_ymax - tension_meter_ymin;
+tension_meter_current_ui = tension_meter_ymax;
+tension_meter_max = tension_meter_ymax - tension_meter_ymin;

@@ -17,21 +17,27 @@ if (!is_fishing && !is_casting && mouse_check_button_pressed(mb_left))
 // tension meter will rise at a constant rate until it reaches it's minimum position
 if (obj_game_manager.game_state == 2)
 {
-	if (tension_meter_direction = 1)
+	if (tension_meter_direction == 1)
 	{
-		tension_meter_current -= tension_meter_speed * room_speed;
+		tension_meter_current_ui -= tension_meter_speed * room_speed;
+		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
 		
-		if (tension_meter_current < tension_meter_ymin) // Line snaps (case 0)
+		if (tension_meter_current < 0) // Line snaps (case 1)
 		{
-			tension_meter_direction = 0;
 			tension_meter_current = tension_meter_ymin;
+			// TODO: Snap the Line
 		}
 	}
-	/*
-	if (tension_meter_current < tension_meter_ymin)
+	else if (tension_meter_direction == 0)
+	{
+		tension_meter_current_ui += tension_meter_speed * room_speed;
+		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
+		
+		if (tension_meter_current >= tension_meter_max) // Fish is caught (case 2)
 		{
-			tension_meter_direction = 0;
-			tension_meter_current = tension_meter_ymin;
+			tension_meter_current = tension_meter_ymax;
+			obj_game_manager.game_state = 3;	// Change state to catch
+			// TODO: Catch the Fish
 		}
-	*/
+	}
 }

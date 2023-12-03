@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+show_debug_message(game_state);
+
 if (is_caught && game_state == 3)
 {
 	//Screen randomizer
