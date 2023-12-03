@@ -10,6 +10,3 @@ is_casting = false;
 
 image_speed = 0;
 room_speed = 30;
-
-tension_meter_direction = 1;
-tension_meter_current = tension_meter_ymax;

@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"848b848d-027c-4654-b2cb-de0922288f2c",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e0552942-f29a-4b99-8d74-998cfb77f04e",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 640,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"da6c699c-ff7e-467c-a327-4375cd4c4878","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7e857174-df0b-4b64-b401-84874b66d772","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Fish",
-    "path": "folders/Sprites/Fish.yy",
+    "name": "Freshwater Fish",
+    "path": "folders/Sprites/Fish/Freshwater Fish.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"848b848d-027c-4654-b2cb-de0922288f2c","path":"sprites/spr_pike/spr_pike.yy",},},},"Disabled":false,"id":"a5ff9d3d-f368-48d8-8ff8-ab668dab811b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e0552942-f29a-4b99-8d74-998cfb77f04e","path":"sprites/spr_pike/spr_pike.yy",},},},"Disabled":false,"id":"c9c41791-7ce2-49a8-9813-9e8fdc41877b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

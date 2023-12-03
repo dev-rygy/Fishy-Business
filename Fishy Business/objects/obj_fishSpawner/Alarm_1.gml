@@ -10,13 +10,29 @@
 4 - 12% Bluegill
 5 - 8% Catfish
 6 - 5% Goldfish
-7 - 2% Lionfish
+7 - 0.5% Swordfish
+8 - 0.3% Lionfish
+9 - 0.1% Golden Gar
+10 - 0.8% Rainbow Trout
+11 - 0.3% Reacher Fish
 */
 
 var randSeed = random_range(0, 100);
 
-if (randSeed <= 2) { // Lionfish
+if (randSeed <= 0.5) { // Swordfish
+	fishType = obj_fish_swordfish;
+}
+else if (randSeed <= 0.8) { // Lionfish
 	fishType = obj_fish_lionfish;
+}
+else if (randSeed <= 0.9) { // Golden Gar
+	fishType = obj_fish_goldenGar;
+}
+else if (randSeed <= 1.7) { // Rainbow Trout
+	fishType = obj_fish_rainbowTrout;
+}
+else if (randSeed <= 2) { // Reacher Fish
+	fishType = obj_fish_reacherfish;
 }
 else if (randSeed <= 7) { // Goldfish
 	fishType = obj_fish_goldfish;
