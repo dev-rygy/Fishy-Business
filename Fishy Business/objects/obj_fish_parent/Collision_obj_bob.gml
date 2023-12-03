@@ -8,7 +8,6 @@ switch (swimState) {
 			
 			obj_game_manager.current_fish = my_instance; // pass the id/reference to the object caught
 			obj_game_manager.game_state = 2; // Change state to reeling
-			obj_game_manager.is_caught = true;
 			
 			obj_fishing_rod.is_casting = false;
 			//obj_fishing_rod.is_fishing = false;
