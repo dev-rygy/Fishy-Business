@@ -10,3 +10,5 @@
 game_state = 0;
 
 current_fish = noone;	// Current fish that is latched onto the rod
+
+is_caught = false;
