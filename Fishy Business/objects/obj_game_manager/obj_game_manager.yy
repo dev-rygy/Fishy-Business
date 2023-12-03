@@ -4,7 +4,6 @@
   "name": "obj_game_manager",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -31,7 +30,10 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"current_fish","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":5,},
   ],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_placeholder_spawner",
+    "path": "sprites/spr_placeholder_spawner/spr_placeholder_spawner.yy",
+  },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
