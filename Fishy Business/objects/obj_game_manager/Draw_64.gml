@@ -18,3 +18,22 @@ if(game_state == 0)
 	draw_sprite(spr_e_button,0,1350,500)
 	draw_text(1220,475,"Interact -")
 }
+
+if (game_state == 3)
+{
+	draw_sprite(current_fish.my_sprite,0,683,384)
+	
+	// TODO: Add the fish to the player's inventory
+}
+
+if (game_state == 4)
+{
+	instance_destroy(obj_fishing_rod.bobber);
+	instance_destroy(current_fish);
+	current_fish = noone;
+	
+	obj_fishing_rod.is_fishing = false;
+	obj_fishing_rod.is_casting = false;
+	
+	game_state = 1;
+}

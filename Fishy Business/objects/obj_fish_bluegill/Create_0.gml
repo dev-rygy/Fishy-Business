@@ -4,9 +4,6 @@
 self.my_sprite = spr_bluegill;
 
 
-
-
-
 // Inherit the parent event
 event_inherited();
 

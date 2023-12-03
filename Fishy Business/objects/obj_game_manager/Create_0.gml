@@ -6,6 +6,7 @@
 // 1 = fishing minigame
 // 2 = fish bite
 // 3 = fish caught
+// 4 = Reset Game
 
 game_state = 0;
 

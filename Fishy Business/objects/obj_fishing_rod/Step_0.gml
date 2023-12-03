@@ -25,7 +25,7 @@ if (obj_game_manager.game_state == 2)
 		if (tension_meter_current < 0) // Line snaps (case 1)
 		{
 			tension_meter_current = tension_meter_ymin;
-			// TODO: Snap the Line
+			obj_game_manager.game_state = 4;
 		}
 	}
 	else if (tension_meter_direction == 0)
