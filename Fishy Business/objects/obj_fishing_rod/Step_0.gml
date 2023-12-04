@@ -17,7 +17,7 @@ if (!is_fishing && !is_casting && mouse_check_button_pressed(mb_left))
 // tension meter will rise at a constant rate until it reaches it's minimum position
 if (obj_game_manager.game_state == 2)
 {
-	if (tension_meter_direction == 1)
+	if (tension_meter_direction == 1)	// Giving the line some slack
 	{
 		tension_meter_current_ui -= tension_meter_speed * room_speed;
 		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
@@ -28,10 +28,11 @@ if (obj_game_manager.game_state == 2)
 			obj_game_manager.game_state = 4;
 		}
 	}
-	else if (tension_meter_direction == 0)
+	else if (tension_meter_direction == 0)	// Pulling on the line
 	{
 		tension_meter_current_ui += tension_meter_speed * room_speed;
 		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
+		// TODO: increase tension force; the force of tension that when it reaches maximum -> the line snaps
 		
 		if (tension_meter_current >= tension_meter_max) // Fish is caught (case 2)
 		{
