@@ -1,16 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-InventoryRemove(id,4)
-
-
-
-
-
-
-
-
-
-
-
-
+InventoryRemove(id,4);

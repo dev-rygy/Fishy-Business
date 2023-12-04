@@ -10,11 +10,3 @@ randomize();
 inventory[0] = 0;
 inventory[1] = 0;
 inventory[2] = 1;
-
-
-
-
-
-
-
-
