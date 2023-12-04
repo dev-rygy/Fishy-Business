@@ -24,6 +24,7 @@ if (is_caught && game_state == 3)
 	//Cont. Button
 	instance_create_layer(room_width/2, room_height/2 + 280, "Buttons", obj_continue_button)
 	
+	InventoryAdd(obj_inventory, current_fish.my_item);
 	is_caught = false;
 }
 

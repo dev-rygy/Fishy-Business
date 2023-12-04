@@ -24,5 +24,5 @@ if (game_state == 3)
 	draw_sprite(current_fish.my_sprite,0,683,384);
 	
 	// TODO: Add the fish to the player's inventory
-	InventoryAdd(obj_inventory, current_fish.my_item);
+	
 }
