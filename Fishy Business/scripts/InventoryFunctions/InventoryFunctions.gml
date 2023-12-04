@@ -34,3 +34,9 @@ var _itemFrom = objectFrom.inventory[slotFrom]
 objectFrom.inventory[slotFrom]=objectTo.inventory[slotTo]
 objectTo.inventory[slotTo] = _itemFrom
 }
+
+function displayInventory(){
+self.visible = true
+
+	
+}

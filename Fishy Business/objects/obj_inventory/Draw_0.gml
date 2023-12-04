@@ -6,6 +6,7 @@
 // You can write your code in this editor
 
 
+
 draw_sprite_stretched(
 sInventory,
 0,
@@ -29,12 +30,14 @@ for (var i = 0; i <INVENTORY_SLOTS; i += 1){
 		draw_set_alpha(1.0)
 	}
 	
+	
 }
 
 if invState = 1 {
 	
-	draw_sprite_ext(spr_girl_down,0,x+250,y+100,5,5,0,c_white,1)
+draw_sprite_ext(spr_girl_down,0,x+250,y+100,5,5,0,c_white,1)
 }
+
 
 
 
