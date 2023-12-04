@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // If the player is not in a up collision
-if (!tilemap_get_at_pixel(ct_layer_id_1, x, y - yVelocity))
+if (!tilemap_get_at_pixel(ct_layer_id_1, x, y - yVelocity) && !obj_game_manager.gameInventory.invState)
 {
 	self.y = self.y - yVelocity;	// move the player up
 }
