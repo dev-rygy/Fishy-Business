@@ -3,7 +3,7 @@
 			   
 				   
 //fish, bait, lines, 
-#macro INVENTORY_SLOTS 25
-rowLength = 5
-self.inventory = array_create(INVENTORY_SLOTS, -1);
+#macro SELLING_SLOTS 1
+rowLength = 1
+self.inventory = array_create(SELLING_SLOTS, -1);
 randomize();

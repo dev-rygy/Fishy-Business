@@ -9,7 +9,6 @@ if (obj_inventory.invState){
 }
 else{
 	obj_inventory.x =  x
-
     obj_inventory.y =  y
 	obj_inventory.visible = true
 	obj_inventory.invState = true

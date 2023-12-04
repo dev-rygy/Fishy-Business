@@ -76,6 +76,7 @@
     {"id":{"name":"spr_exit_button","path":"sprites/spr_exit_button/spr_exit_button.yy",},},
     {"id":{"name":"spr_improvedline","path":"sprites/spr_improvedline/spr_improvedline.yy",},},
     {"id":{"name":"spr_cheapline","path":"sprites/spr_cheapline/spr_cheapline.yy",},},
+    {"id":{"name":"obj_sellBox","path":"objects/obj_sellBox/obj_sellBox.yy",},},
     {"id":{"name":"spr_d_button","path":"sprites/spr_d_button/spr_d_button.yy",},},
     {"id":{"name":"obj_fish_parent","path":"objects/obj_fish_parent/obj_fish_parent.yy",},},
     {"id":{"name":"spr_goldfish","path":"sprites/spr_goldfish/spr_goldfish.yy",},},

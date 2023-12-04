@@ -54,6 +54,7 @@
     {"name":"obj_fish_objective","order":3,"path":"objects/obj_fish_objective/obj_fish_objective.yy",},
     {"name":"spr_exit_button","order":8,"path":"sprites/spr_exit_button/spr_exit_button.yy",},
     {"name":"spr_improvedline","order":1,"path":"sprites/spr_improvedline/spr_improvedline.yy",},
+    {"name":"obj_sellBox","order":13,"path":"objects/obj_sellBox/obj_sellBox.yy",},
     {"name":"spr_d_button","order":5,"path":"sprites/spr_d_button/spr_d_button.yy",},
     {"name":"obj_fish_parent","order":2,"path":"objects/obj_fish_parent/obj_fish_parent.yy",},
     {"name":"spr_goldfish","order":5,"path":"sprites/spr_goldfish/spr_goldfish.yy",},
