@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description
 
 // Update built-in variables
 self.image_angle = self.swimDirection;
