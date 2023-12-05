@@ -43,10 +43,16 @@ function InventorySwap(objectFrom, slotFrom, objectTo, slotTo) {
 		}
 		objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo]
 		objectTo.inventory[slotTo] = _itemFrom
+		audio_play_sound(sfx_inventory_drop, 10, false);
 	}
 	else {
 		objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo]
 		objectTo.inventory[slotTo] = _itemFrom
+		if (objectTo.invType != obj_sellBox.invType) {
+			audio_play_sound(sfx_inventory_drop, 10, false);
+		} else {
+			audio_play_sound(sfx_sell, 10, false);
+		}
 	}
 }
 

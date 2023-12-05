@@ -12,10 +12,12 @@ draw_set_color(c_black)
 	draw_set_alpha(1)
 draw_set_color(c_white)
 
+draw_text(menuMargin + 5, 740, "Money: " + string(global.money));
 
 for (var i = 0;i < itemCount; i++){
 	
-	var item = items[i].name;
+	var cost = items[i].value;
+	var item = items[i].name + " | cost: " + string(cost);
 	
 	var _x = menuMargin+menuWidth/2
 	var _y = (guiHeight/2)+(i-selected)*32
