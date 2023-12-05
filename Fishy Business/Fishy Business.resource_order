@@ -112,6 +112,7 @@
     {"name":"spr_continue_button_pr","order":3,"path":"sprites/spr_continue_button_pr/spr_continue_button_pr.yy",},
     {"name":"spr_shadow_2","order":1,"path":"sprites/spr_shadow_2/spr_shadow_2.yy",},
     {"name":"obj_fish_caught_screen02","order":1,"path":"objects/obj_fish_caught_screen02/obj_fish_caught_screen02.yy",},
+    {"name":"sfx_sell","order":2,"path":"sounds/sfx_sell/sfx_sell.yy",},
     {"name":"obj_bob","order":5,"path":"objects/obj_bob/obj_bob.yy",},
     {"name":"obj_fish_minnow","order":5,"path":"objects/obj_fish_minnow/obj_fish_minnow.yy",},
     {"name":"spr_s_button","order":10,"path":"sprites/spr_s_button/spr_s_button.yy",},
@@ -136,8 +137,10 @@
     {"name":"sSlot","order":1,"path":"sprites/sSlot/sSlot.yy",},
     {"name":"spr_32goldfish","order":3,"path":"sprites/spr_32goldfish/spr_32goldfish.yy",},
     {"name":"obj_item_parent","order":8,"path":"objects/obj_item_parent/obj_item_parent.yy",},
+    {"name":"sfx_inventory_drop","order":1,"path":"sounds/sfx_inventory_drop/sfx_inventory_drop.yy",},
     {"name":"spr_e_button","order":6,"path":"sprites/spr_e_button/spr_e_button.yy",},
     {"name":"spr_32catfish","order":2,"path":"sprites/spr_32catfish/spr_32catfish.yy",},
     {"name":"spr_girl_up","order":1,"path":"sprites/spr_girl_up/spr_girl_up.yy",},
+    {"name":"sfx_splash","order":3,"path":"sounds/sfx_splash/sfx_splash.yy",},
   ],
 }
