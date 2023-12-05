@@ -42,9 +42,12 @@ if (shopOpen){
 	var item = items[selected].name;
 	var price = items[selected].value;
 	
-	if (keyboard_check_pressed(vk_enter) && (InventorySearch(obj_inventory, -1) != -1)){
-		InventoryAdd(obj_inventory, items[selected]);
-		global.money -= price;
+	if (price <= global.money)
+	{
+		if (keyboard_check_pressed(vk_enter) && (InventorySearch(obj_inventory, -1) != -1)){
+			InventoryAdd(obj_inventory, items[selected]);
+			global.money -= price;
+		}
 	}
 }
 else if (!shopOpen && !obj_inventory.invState) {

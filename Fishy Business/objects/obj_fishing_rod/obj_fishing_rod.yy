@@ -55,8 +55,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_placeholder_fishingrod_ani",
-    "path": "sprites/spr_placeholder_fishingrod_ani/spr_placeholder_fishingrod_ani.yy",
+    "name": "spr_stick_rod_anim",
+    "path": "sprites/spr_stick_rod_anim/spr_stick_rod_anim.yy",
   },
   "spriteMaskId": null,
   "visible": true,
