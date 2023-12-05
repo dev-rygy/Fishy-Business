@@ -25,6 +25,7 @@ if (obj_game_manager.game_state == 2)
 		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
 		
 		started_reeling = false;
+		audio_stop_sound(sfx_reel);
 		
 		if (tension_meter_current < 0) // Line snaps (case 1)
 		{
@@ -39,12 +40,9 @@ if (obj_game_manager.game_state == 2)
 	{
 		tension_meter_current_ui += tension_meter_speed * room_speed;
 		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
-		// TODO: increase tension force; the force of tension that when it reaches maximum -> the line snaps
 		
 		if(!started_reeling)
-		{
 			audio_play_sound(sfx_reel, 10, true);
-		}
 		
 		started_reeling = true;
 		
@@ -54,7 +52,6 @@ if (obj_game_manager.game_state == 2)
 			tension_meter_current = tension_meter_ymax;
 			obj_game_manager.is_caught = true;
 			obj_game_manager.game_state = 3;	// Change state to catch
-			// TODO: Catch the Fish
 		}
 	}
 }
