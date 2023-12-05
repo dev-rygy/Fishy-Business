@@ -19,7 +19,7 @@ for (var i = 0; i <SELLING_SLOTS; i += 1){
 	var xx = x + (i mod self.rowLength) * 36 + 12;
 	var yy = y + (i div  self.rowLength)* 36 + 12;
 	var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
-	draw_sprite(sSlot,hover,xx,yy)
+	draw_sprite(sSell,hover,xx,yy)
 	if (self.inventory[i] != -1)
 	{
 		var alpha = 1.0

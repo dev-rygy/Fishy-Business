@@ -51,6 +51,7 @@ if (shopOpen){
 	{
 		if (keyboard_check_pressed(vk_enter) && (InventorySearch(obj_inventory, -1) != -1)){
 			InventoryAdd(obj_inventory, items[selected]);
+			audio_play_sound(sfx_sell, 10, false);
 			global.money -= price;
 		}
 	}
