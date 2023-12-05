@@ -6,7 +6,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_fish_parent","path":"objects/obj_fish_parent/obj_fish_parent.yy",},"propertyId":{"name":"tension_force","path":"objects/obj_fish_parent/obj_fish_parent.yy",},"value":"4",},
+  ],
   "parent": {
     "name": "Freshwater",
     "path": "folders/Objects/Fish/Freshwater.yy",

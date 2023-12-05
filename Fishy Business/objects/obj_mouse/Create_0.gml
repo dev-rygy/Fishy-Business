@@ -19,7 +19,7 @@ mouseOver = function()
 	with(obj_inventory_parent)
 	{
 	if (point_in_rectangle(mx, my, x-6, y-6, x-6 + 12 + rowLength * 36, 
-			y-6 +12+(((INVENTORY_SLOTS-1) div rowLength)+1)*36))
+			y-6 +12+(((INVENTORY_SLOTS - 1) div rowLength)+1)*36))
 		{
 			for (var i = 0; i < INVENTORY_SLOTS; i += 1) {
 			
