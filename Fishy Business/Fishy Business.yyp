@@ -58,7 +58,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"spr_a_button","path":"sprites/spr_a_button/spr_a_button.yy",},},
@@ -95,6 +95,7 @@
     {"id":{"name":"obj_item_largemouthbass","path":"objects/obj_item_largemouthbass/obj_item_largemouthbass.yy",},},
     {"id":{"name":"spr_fish_caught_screen01","path":"sprites/spr_fish_caught_screen01/spr_fish_caught_screen01.yy",},},
     {"id":{"name":"spr_forest","path":"sprites/spr_forest/spr_forest.yy",},},
+    {"id":{"name":"spr_lmb","path":"sprites/spr_lmb/spr_lmb.yy",},},
     {"id":{"name":"spr_carp","path":"sprites/spr_carp/spr_carp.yy",},},
     {"id":{"name":"spr_placeholder_objective","path":"sprites/spr_placeholder_objective/spr_placeholder_objective.yy",},},
     {"id":{"name":"obj_player_girl","path":"objects/obj_player_girl/obj_player_girl.yy",},},
@@ -116,6 +117,7 @@
     {"id":{"name":"spr_placeholder_spawner","path":"sprites/spr_placeholder_spawner/spr_placeholder_spawner.yy",},},
     {"id":{"name":"obj_item_bluegill","path":"objects/obj_item_bluegill/obj_item_bluegill.yy",},},
     {"id":{"name":"spr_w_button","path":"sprites/spr_w_button/spr_w_button.yy",},},
+    {"id":{"name":"spr_i_button","path":"sprites/spr_i_button/spr_i_button.yy",},},
     {"id":{"name":"spr_shrimp","path":"sprites/spr_shrimp/spr_shrimp.yy",},},
     {"id":{"name":"obj_exit_button_pr","path":"objects/obj_exit_button_pr/obj_exit_button_pr.yy",},},
     {"id":{"name":"obj_fish_pike","path":"objects/obj_fish_pike/obj_fish_pike.yy",},},
@@ -164,6 +166,7 @@
     {"id":{"name":"obj_item_catfish","path":"objects/obj_item_catfish/obj_item_catfish.yy",},},
     {"id":{"name":"obj_rod_superb","path":"objects/obj_rod_superb/obj_rod_superb.yy",},},
     {"id":{"name":"spr_back_button","path":"sprites/spr_back_button/spr_back_button.yy",},},
+    {"id":{"name":"spr_rmb","path":"sprites/spr_rmb/spr_rmb.yy",},},
     {"id":{"name":"sSlot","path":"sprites/sSlot/sSlot.yy",},},
     {"id":{"name":"spr_32goldfish","path":"sprites/spr_32goldfish/spr_32goldfish.yy",},},
     {"id":{"name":"spr_placeholder_fishingrod_ani","path":"sprites/spr_placeholder_fishingrod_ani/spr_placeholder_fishingrod_ani.yy",},},
