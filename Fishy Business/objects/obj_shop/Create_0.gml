@@ -6,13 +6,19 @@ global.shop = false
 global.money = 100
 global.inv = ds_list_create()
 selected = 0
-items = ds_list_create()
+items = array_create(9, -1);
 
-ds_list_add(items,["meter_bg",20,"this ia a power bar"])
-ds_list_add(items,["meter_bg",20,"this ipppp power bar"])
-ds_list_add(items,["meter_bg",20,"thwer bar"])
+items[0] = obj_bait_worm;
+items[1] = obj_bait_grasshopper;
+items[2] = obj_bait_shrimp;
+items[3] = obj_rod_stick;
+items[4] = obj_rod_improved;
+items[5] = obj_rod_superb;
+items[6] = obj_line_yarn;
+items[7] = obj_line_cheap;
+items[8] = obj_line_improved;
 
-itemCount = ds_list_size(items)
+itemCount = array_length(items);
 display_set_gui_size(1366,768)
 guiWidth = display_get_gui_width()
 guiHeight = display_get_gui_height()

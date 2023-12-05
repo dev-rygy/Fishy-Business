@@ -15,8 +15,7 @@ draw_set_color(c_white)
 
 for (var i = 0;i < itemCount; i++){
 	
-	var arr = items[|i]
-	var item = arr[0]
+	var item = items[i].name;
 	
 	var _x = menuMargin+menuWidth/2
 	var _y = (guiHeight/2)+(i-selected)*32
@@ -31,10 +30,9 @@ for (var i = 0;i < itemCount; i++){
 	draw_set_halign(fa_left)
 }
 
-var arr = items[|selected]
-var item = arr[0]
-var price = arr[1]
-var desc = arr[2]
+var item = items[selected].name;
+var price = items[selected].value;
+var desc = items[selected].description;
 
 
 var _x = (menuMargin+menuWidth)+previewWidth/2;

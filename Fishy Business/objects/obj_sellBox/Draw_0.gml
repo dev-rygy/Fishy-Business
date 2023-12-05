@@ -4,20 +4,20 @@
 
 /// @description Insert description here
 // You can write your code in this editor
-if (invState) {
+if (self.invState) {
 
 draw_sprite_stretched(
 sInventory,
 0,
 x-6,
 y-6,
-12+rowLength*36,
-12+(((INVENTORY_SLOTS-1) div rowLength)+1)*36);
+12+self.rowLength*36,
+12+(((SELLING_SLOTS-1) div self.rowLength)+1)*36);
 
 
-for (var i = 0; i <INVENTORY_SLOTS; i += 1){
-	var xx = x + (i mod rowLength) * 36 + 12;
-	var yy = y + (i div  rowLength)* 36 + 12;
+for (var i = 0; i <SELLING_SLOTS; i += 1){
+	var xx = x + (i mod self.rowLength) * 36 + 12;
+	var yy = y + (i div  self.rowLength)* 36 + 12;
 	var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
 	draw_sprite(sSlot,hover,xx,yy)
 	if (self.inventory[i] != -1)

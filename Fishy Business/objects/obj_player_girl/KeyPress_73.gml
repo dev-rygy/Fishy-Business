@@ -2,17 +2,16 @@
 // You can write your code in this editor
 
 
-if (inv_state){
+if (obj_inventory.invState){
 	obj_inventory.visible = false
-	inv_state = false
+	obj_inventory.invState = false
 	visible = true
 }
 else{
 	obj_inventory.x =  x
-
     obj_inventory.y =  y
 	obj_inventory.visible = true
-	inv_state = true
+	obj_inventory.invState = true
 	visible = false
 	
 }
