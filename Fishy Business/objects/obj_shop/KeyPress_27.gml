@@ -4,6 +4,7 @@
 obj_inventory.invState = false;
 obj_sellBox.invState = false;
 obj_sellBox.visible = false;
+obj_equipmentBox.visible = false;
 
 
 
