@@ -19,7 +19,9 @@ for (var i = 0; i <EQUIPMENT_SLOTS; i += 1){
 	var xx = x + (i mod self.rowLength) * 36 + 12;
 	var yy = y + (i div  self.rowLength)* 36 + 12;
 	var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
-	draw_sprite(sSlot,hover,xx,yy)
+	if (i == 0) draw_sprite(spr_rod_silhouette,hover,xx,yy);
+	if (i == 1) draw_sprite(spr_line_silhouette,hover,xx,yy);
+	if (i == 2) draw_sprite(spr_bait_silhouette,hover,xx,yy);
 	if (self.inventory[i] != -1)
 	{
 		var alpha = 1.0
