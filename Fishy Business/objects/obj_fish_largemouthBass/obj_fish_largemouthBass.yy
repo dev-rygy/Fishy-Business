@@ -7,7 +7,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_fish_parent","path":"objects/obj_fish_parent/obj_fish_parent.yy",},"propertyId":{"name":"tension_force","path":"objects/obj_fish_parent/obj_fish_parent.yy",},"value":"4",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_fish_parent","path":"objects/obj_fish_parent/obj_fish_parent.yy",},"propertyId":null,"value":"4",},
   ],
   "parent": {
     "name": "Freshwater",
