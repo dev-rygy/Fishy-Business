@@ -59,7 +59,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.8.2.106",
   },
   "resources": [
     {"id":{"name":"spr_a_button","path":"sprites/spr_a_button/spr_a_button.yy",},},
@@ -67,6 +67,7 @@
     {"id":{"name":"ts_forest","path":"tilesets/ts_forest/ts_forest.yy",},},
     {"id":{"name":"obj_fish_carp","path":"objects/obj_fish_carp/obj_fish_carp.yy",},},
     {"id":{"name":"spr_32largemouthbass","path":"sprites/spr_32largemouthbass/spr_32largemouthbass.yy",},},
+    {"id":{"name":"sfx_line_snap","path":"sounds/sfx_line_snap/sfx_line_snap.yy",},},
     {"id":{"name":"spr_shadow_3","path":"sprites/spr_shadow_3/spr_shadow_3.yy",},},
     {"id":{"name":"spr_largemouthbass","path":"sprites/spr_largemouthbass/spr_largemouthbass.yy",},},
     {"id":{"name":"obj_fish_bluegill","path":"objects/obj_fish_bluegill/obj_fish_bluegill.yy",},},
@@ -107,6 +108,7 @@
     {"id":{"name":"obj_player_girl","path":"objects/obj_player_girl/obj_player_girl.yy",},},
     {"id":{"name":"obj_fish_largemouthBass","path":"objects/obj_fish_largemouthBass/obj_fish_largemouthBass.yy",},},
     {"id":{"name":"obj_mouse","path":"objects/obj_mouse/obj_mouse.yy",},},
+    {"id":{"name":"sfx_cast_swoosh","path":"sounds/sfx_cast_swoosh/sfx_cast_swoosh.yy",},},
     {"id":{"name":"obj_fish_goldfish","path":"objects/obj_fish_goldfish/obj_fish_goldfish.yy",},},
     {"id":{"name":"obj_fish_catfish","path":"objects/obj_fish_catfish/obj_fish_catfish.yy",},},
     {"id":{"name":"obj_fish_caught_screen01","path":"objects/obj_fish_caught_screen01/obj_fish_caught_screen01.yy",},},
@@ -133,6 +135,7 @@
     {"id":{"name":"obj_line_yarn","path":"objects/obj_line_yarn/obj_line_yarn.yy",},},
     {"id":{"name":"spr_superbrod","path":"sprites/spr_superbrod/spr_superbrod.yy",},},
     {"id":{"name":"spr_32lionfish","path":"sprites/spr_32lionfish/spr_32lionfish.yy",},},
+    {"id":{"name":"sfx_reel","path":"sounds/sfx_reel/sfx_reel.yy",},},
     {"id":{"name":"spr_fish_caught_screen04","path":"sprites/spr_fish_caught_screen04/spr_fish_caught_screen04.yy",},},
     {"id":{"name":"spr_fish_caught_screen03","path":"sprites/spr_fish_caught_screen03/spr_fish_caught_screen03.yy",},},
     {"id":{"name":"obj_rod_stick","path":"objects/obj_rod_stick/obj_rod_stick.yy",},},
