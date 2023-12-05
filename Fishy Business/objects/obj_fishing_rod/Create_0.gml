@@ -17,3 +17,7 @@ tension_meter_direction = 1;
 tension_meter_max = tension_meter_ymax - tension_meter_ymin;
 tension_meter_current = tension_meter_max / 2;
 tension_meter_current_ui = tension_meter_ymin + tension_meter_current;
+
+if (obj_equipmentBox.inventory[1] != -1) {
+	tension_force_max += obj_equipmentBox.inventory[1].lineStrength;
+}
