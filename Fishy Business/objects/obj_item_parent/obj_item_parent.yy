@@ -27,6 +27,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"No name","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"description","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"No description","varType":2,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"value","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"itemType","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":2,},
   ],
   "solid": false,
   "spriteId": null,

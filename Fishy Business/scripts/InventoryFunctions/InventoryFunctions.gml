@@ -29,10 +29,25 @@ else return false
 }
 
 
-function InventorySwap(objectFrom, slotFrom, objectTo, slotTo){
+function InventorySwap(objectFrom, slotFrom, objectTo, slotTo) {
 	var _itemFrom = objectFrom.inventory[slotFrom]
-	objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo]
-	objectTo.inventory[slotTo] = _itemFrom
+	if (objectTo.invType == obj_equipmentBox.invType) {
+		if ( slotTo == 0 && _itemFrom.itemType != "Rod" ) {
+			return;
+		}
+		if (slotTo == 1 && _itemFrom.itemType != "Line") {
+			return;
+		}
+		if (slotTo == 2 && _itemFrom.itemType != "Bait") {
+			return;
+		}
+		objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo]
+		objectTo.inventory[slotTo] = _itemFrom
+	}
+	else {
+		objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo]
+		objectTo.inventory[slotTo] = _itemFrom
+	}
 }
 
 function displayInventory() {

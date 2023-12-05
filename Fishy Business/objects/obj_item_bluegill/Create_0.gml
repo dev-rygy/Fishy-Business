@@ -3,3 +3,4 @@
 self.name = "Blue Gill";
 self.description = "Insert desc";
 self.value = 20;
+self.itemType = "Fish";

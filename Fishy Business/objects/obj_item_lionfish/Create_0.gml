@@ -3,3 +3,4 @@
 self.name = "Lionfish";
 self.description = "Insert desc";
 self.value = 700;
+self.itemType = "Fish";
