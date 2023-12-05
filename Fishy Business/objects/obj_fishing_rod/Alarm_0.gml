@@ -13,6 +13,7 @@
 		self.bobber = instance_create_layer(fishing_point_x, fishing_point_y, "Instances", obj_bob)
 	
 		// Change fishing flags to true
+		audio_play_sound(sfx_splash, 10, false);
 		is_fishing = true;
 
 

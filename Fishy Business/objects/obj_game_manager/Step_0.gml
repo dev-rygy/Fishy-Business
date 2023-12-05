@@ -44,5 +44,8 @@ if (game_state == 4)
 	obj_fishing_rod.tension_meter_current = obj_fishing_rod.tension_meter_max / 2;
 	obj_fishing_rod.tension_meter_current_ui = obj_fishing_rod.tension_meter_ymin + obj_fishing_rod.tension_meter_current;
 	
+	audio_stop_sound(sfx_reel);
+	obj_fishing_rod.started_reeling = false
+	
 	game_state = 1;
 }
