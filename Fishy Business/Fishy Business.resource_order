@@ -64,6 +64,7 @@
     {"name":"obj_exit_button","order":2,"path":"objects/obj_exit_button/obj_exit_button.yy",},
     {"name":"obj_item_pike","order":7,"path":"objects/obj_item_pike/obj_item_pike.yy",},
     {"name":"spr_yarnline","order":2,"path":"sprites/spr_yarnline/spr_yarnline.yy",},
+    {"name":"spr_space_button","order":15,"path":"sprites/spr_space_button/spr_space_button.yy",},
     {"name":"spr_stickrod","order":1,"path":"sprites/spr_stickrod/spr_stickrod.yy",},
     {"name":"spr_girl_idle","order":4,"path":"sprites/spr_girl_idle/spr_girl_idle.yy",},
     {"name":"obj_item_largemouthbass","order":4,"path":"objects/obj_item_largemouthbass/obj_item_largemouthbass.yy",},

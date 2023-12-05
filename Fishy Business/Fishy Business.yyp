@@ -88,6 +88,7 @@
     {"id":{"name":"spr_32bluegill","path":"sprites/spr_32bluegill/spr_32bluegill.yy",},},
     {"id":{"name":"obj_item_pike","path":"objects/obj_item_pike/obj_item_pike.yy",},},
     {"id":{"name":"spr_yarnline","path":"sprites/spr_yarnline/spr_yarnline.yy",},},
+    {"id":{"name":"spr_space_button","path":"sprites/spr_space_button/spr_space_button.yy",},},
     {"id":{"name":"spr_grasshopper","path":"sprites/spr_grasshopper/spr_grasshopper.yy",},},
     {"id":{"name":"spr_stickrod","path":"sprites/spr_stickrod/spr_stickrod.yy",},},
     {"id":{"name":"ui_meter_bg","path":"sprites/ui_meter_bg/ui_meter_bg.yy",},},

@@ -1,10 +1,10 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_s_button",
-  "bbox_bottom": 31,
+  "name": "spr_space_button",
+  "bbox_bottom": 35,
   "bbox_left": 0,
-  "bbox_right": 31,
+  "bbox_right": 80,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,17 +13,17 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"4eed2945-7536-499c-ae3d-1d3b946ecf61",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54eca495-7144-4741-84bb-42c14d083834",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 32,
+  "height": 36,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1a2b046a-d43d-4d04-a33d-3ebec872355f","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cad04307-0cc9-4a22-bd91-f475a3b54bfb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 9,
+  "origin": 8,
   "parent": {
     "name": "Buttons",
     "path": "folders/Sprites/UI/Buttons.yy",
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_s_button",
+    "name": "spr_space_button",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,13 +54,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4eed2945-7536-499c-ae3d-1d3b946ecf61","path":"sprites/spr_s_button/spr_s_button.yy",},},},"Disabled":false,"id":"7db67d86-1a37-4408-92dc-ff91b0d497ea","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54eca495-7144-4741-84bb-42c14d083834","path":"sprites/spr_space_button/spr_space_button.yy",},},},"Disabled":false,"id":"ba7c873b-2cd7-4004-a751-8908693fbfc2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 64,
-    "yorigin": 64,
+    "xorigin": 81,
+    "yorigin": 36,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 32,
+  "width": 81,
 }
