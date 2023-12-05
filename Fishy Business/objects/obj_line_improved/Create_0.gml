@@ -3,3 +3,4 @@
 self.name = "Improved Fishing Line";
 self.description = "Insert desc";
 self.value = 50;
+self.itemType = "Line";

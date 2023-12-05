@@ -3,3 +3,4 @@
 self.name = "Superb Fishing Rod";
 self.description = "Insert desc";
 self.value = 300;
+self.itemType = "Rod";

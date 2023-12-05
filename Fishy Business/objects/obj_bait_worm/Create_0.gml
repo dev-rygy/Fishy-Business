@@ -3,3 +3,4 @@
 self.name = "Earthworm Bait";
 self.description = "Insert desc";
 self.value = 5;
+self.itemType = "Bait";

@@ -12,10 +12,10 @@ sInventory,
 x-6,
 y-6,
 12+self.rowLength*36,
-12+(((SELLING_SLOTS-1) div self.rowLength)+1)*36);
+12+(((EQUIPMENT_SLOTS-1) div self.rowLength)+1)*36);
 
 
-for (var i = 0; i <SELLING_SLOTS; i += 1){
+for (var i = 0; i <EQUIPMENT_SLOTS; i += 1){
 	var xx = x + (i mod self.rowLength) * 36 + 12;
 	var yy = y + (i div  self.rowLength)* 36 + 12;
 	var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
@@ -33,7 +33,6 @@ for (var i = 0; i <SELLING_SLOTS; i += 1){
 
 if (self.invState) {
 	
-
 }
 
 

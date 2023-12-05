@@ -16,7 +16,7 @@ mouseOver = function()
 	var mx = mouse_x
 	var my = mouse_y
 	
-	with(obj_inventory)
+	with(obj_inventory_parent)
 	{
 	if (point_in_rectangle(mx, my, x-6, y-6, x-6 + 12 + rowLength * 36, 
 			y-6 +12+(((INVENTORY_SLOTS-1) div rowLength)+1)*36))

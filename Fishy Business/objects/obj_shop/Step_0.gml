@@ -23,10 +23,15 @@ if (shopOpen){
 	obj_inventory.invState = true
 	obj_player_girl.visible = false
 	
-	obj_sellBox.x = obj_inventory.x - 50;
-	obj_sellBox.y = obj_inventory.y + 150;
+	obj_sellBox.x = obj_inventory.x - 53;
+	obj_sellBox.y = obj_inventory.y + 144;
 	obj_sellBox.visible = true;
 	obj_sellBox.invState = true;
+	
+	obj_equipmentBox.x = obj_inventory.x - 53;
+	obj_equipmentBox.y = obj_inventory.y;
+	obj_equipmentBox.visible = true;
+	obj_equipmentBox.invState = true;
 	
 	if (keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))){
 	
