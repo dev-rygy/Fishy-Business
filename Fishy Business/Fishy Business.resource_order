@@ -139,6 +139,7 @@
     {"name":"spr_fisher_frog","order":13,"path":"sprites/spr_fisher_frog/spr_fisher_frog.yy",},
     {"name":"spr_line_silhouette","order":1,"path":"sprites/spr_line_silhouette/spr_line_silhouette.yy",},
     {"name":"spr_pike","order":8,"path":"sprites/spr_pike/spr_pike.yy",},
+    {"name":"spr_frog_shop","order":14,"path":"sprites/spr_frog_shop/spr_frog_shop.yy",},
     {"name":"spr_catfish","order":4,"path":"sprites/spr_catfish/spr_catfish.yy",},
     {"name":"spr_exit_button_pr","order":9,"path":"sprites/spr_exit_button_pr/spr_exit_button_pr.yy",},
     {"name":"obj_fish_caught_screen03","order":2,"path":"objects/obj_fish_caught_screen03/obj_fish_caught_screen03.yy",},

@@ -178,6 +178,7 @@
     {"id":{"name":"spr_fisher_frog","path":"sprites/spr_fisher_frog/spr_fisher_frog.yy",},},
     {"id":{"name":"spr_line_silhouette","path":"sprites/spr_line_silhouette/spr_line_silhouette.yy",},},
     {"id":{"name":"spr_pike","path":"sprites/spr_pike/spr_pike.yy",},},
+    {"id":{"name":"spr_frog_shop","path":"sprites/spr_frog_shop/spr_frog_shop.yy",},},
     {"id":{"name":"spr_catfish","path":"sprites/spr_catfish/spr_catfish.yy",},},
     {"id":{"name":"spr_exit_button_pr","path":"sprites/spr_exit_button_pr/spr_exit_button_pr.yy",},},
     {"id":{"name":"spr_improvedrod","path":"sprites/spr_improvedrod/spr_improvedrod.yy",},},

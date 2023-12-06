@@ -40,4 +40,4 @@ var desc = items[selected].description;
 var _x = (menuMargin+menuWidth)+previewWidth/2;
 var _y = guiHeight/2
 
-
+draw_sprite_ext(spr_frog_shop, 0, 330, 150, 7, 7, 0, c_white, 1.0);

@@ -7,16 +7,16 @@ if (keyboard_check(vk_space))
 	//shopOpen = true
 	//global.shop = true
 }
-else if (shopOpen)&& (keyboard_check(vk_escape)){
+else if (shopOpen) && (keyboard_check(vk_escape)){
 	
 	shopOpen = false
 	global.shop = false
 }
 
-if (shopOpen){
-	
-	obj_inventory.x = obj_player_girl.x
-    obj_inventory.y = obj_player_girl.y
+if (shopOpen)
+{
+	obj_inventory.x = obj_player_girl.x;
+    obj_inventory.y = obj_player_girl.y;
 	obj_inventory.visible = true
 	obj_inventory.invState = true
 	obj_player_girl.visible = false
@@ -35,12 +35,12 @@ if (shopOpen){
 	
 	selected++;
 	if (selected == itemCount) selected = 0
-}
+	}
 	if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))){
 	
 	selected--;
 	if (selected <0) selected = itemCount-1
-}
+	}
 
 	var item = items[selected].name;
 	var price = items[selected].value;
@@ -53,6 +53,7 @@ if (shopOpen){
 			global.money -= price;
 		}
 	}
+	
 }
 else if (!shopOpen && !obj_inventory.invState) {
 	obj_inventory.visible = false
