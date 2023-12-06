@@ -16,8 +16,8 @@ y-6,
 
 
 for (var i = 0; i <SELLING_SLOTS; i += 1){
-	var xx = x + (i mod self.rowLength) * 36 + 12;
-	var yy = y + (i div  self.rowLength)* 36 + 12;
+	var xx = x + (i mod self.rowLength) * 36 + 17;
+	var yy = y + (i div  self.rowLength)* 36 + 17;
 	var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
 	draw_sprite(sSell,hover,xx,yy)
 	if (self.inventory[i] != -1)
@@ -26,7 +26,7 @@ for (var i = 0; i <SELLING_SLOTS; i += 1){
 		if(obj_mouse.inventoryDrag == id) && (obj_mouse.slotDrag == i) alpha = 0.5
 		draw_set_alpha(alpha);
 	    draw_sprite(object_get_sprite(self.inventory[i]), self.inventory[i],xx,yy)
-		draw_set_alpha(1.0)
+		draw_set_alpha(1.0);
 	}
 	
 }

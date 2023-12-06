@@ -5,7 +5,7 @@
 if (!shopOpen) exit
 
 draw_set_color(c_black)
-	draw_set_alpha(.5)
+	draw_set_alpha(0)
 		draw_rectangle(0,0,guiWidth,guiHeight,0)
 	draw_set_alpha(.8)
 		draw_rectangle(menuMargin,0,menuMargin+menuWidth,guiHeight,0)

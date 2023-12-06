@@ -46,6 +46,7 @@ if (game_state == 4)
 	
 	audio_stop_sound(sfx_reel);
 	obj_fishing_rod.started_reeling = false
+	obj_fishing_rod.tension_force_current = 0;
 	
 	game_state = 1;
 }

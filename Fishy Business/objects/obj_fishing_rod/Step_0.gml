@@ -24,10 +24,17 @@ if (obj_game_manager.game_state == 2)
 		tension_meter_current_ui -= tension_meter_speed * room_speed;
 		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
 		
+		if (tension_force_current > 0) // Giving line slack
+		{
+			tension_force_current -= 2;
+		}
+		else
+			tension_force_current = 0;
+		
 		started_reeling = false;
 		audio_stop_sound(sfx_reel);
 		
-		if (tension_meter_current < 0) // Line snaps (case 1)
+		if (tension_meter_current < 0) // Line snaps
 		{
 			tension_meter_current = tension_meter_ymin;
 			obj_game_manager.game_state = 4;
@@ -41,12 +48,22 @@ if (obj_game_manager.game_state == 2)
 		tension_meter_current_ui += tension_meter_speed * room_speed;
 		tension_meter_current = tension_meter_current_ui - tension_meter_ymin;
 		
+		if (tension_force_current < tension_force_max)	// increase tension force
+		{
+			tension_force_current++;
+		}
+		else									// Line snaps
+		{
+			obj_game_manager.game_state = 4;	// Reset game
+			audio_play_sound(sfx_line_snap, 10, false);
+		}
+			
 		if(!started_reeling)
 			audio_play_sound(sfx_reel, 10, true);
 		
 		started_reeling = true;
 		
-		if (tension_meter_current >= tension_meter_max) // Fish is caught (case 2)
+		if (tension_meter_current >= tension_meter_max) // Fish is caught
 		{
 			audio_stop_sound(sfx_reel);
 			tension_meter_current = tension_meter_ymax;

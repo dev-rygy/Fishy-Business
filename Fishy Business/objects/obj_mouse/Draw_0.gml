@@ -3,6 +3,7 @@
 
 if (itemDrag != -1){
 	draw_set_alpha(.5)
+	
 	if (obj_inventory.inventory[slotDrag] == itemDrag) {
 		draw_sprite(object_get_sprite(obj_inventory.inventory[slotDrag]),itemDrag,mouse_x,mouse_y);
 	}
