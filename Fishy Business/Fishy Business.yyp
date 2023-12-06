@@ -47,7 +47,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Sprites/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rod Animations","folderPath":"folders/Sprites/Rod Animations.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Screens","folderPath":"folders/Sprites/Screens.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sprites/Sequences.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tilesets","folderPath":"folders/Sprites/Tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"UI","folderPath":"folders/Sprites/UI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buttons","folderPath":"folders/Sprites/UI/Buttons.yy",},

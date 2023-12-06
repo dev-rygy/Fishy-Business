@@ -36,7 +36,6 @@
     {"name":"Player","order":3,"path":"folders/Sprites/Player.yy",},
     {"name":"Rod Animations","order":11,"path":"folders/Sprites/Rod Animations.yy",},
     {"name":"Screens","order":9,"path":"folders/Sprites/Screens.yy",},
-    {"name":"Sequences","order":10,"path":"folders/Sprites/Sequences.yy",},
     {"name":"Tilesets","order":1,"path":"folders/Sprites/Tilesets.yy",},
     {"name":"UI","order":7,"path":"folders/Sprites/UI.yy",},
     {"name":"Buttons","order":2,"path":"folders/Sprites/UI/Buttons.yy",},
