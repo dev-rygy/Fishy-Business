@@ -4,7 +4,7 @@
 // If player is not in a down collision
 if (!tilemap_get_at_pixel(ct_layer_id_1, x, y + yVelocity) && !obj_inventory.invState)
 {
-	self.y = self.y + yVelocity;	// Move the player down
+	self.y += yVelocity;	// Move the player down
 }
 
 if (anim_state == 0)
