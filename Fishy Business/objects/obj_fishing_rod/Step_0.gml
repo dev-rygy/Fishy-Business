@@ -10,7 +10,7 @@ if (!is_fishing && !is_casting && mouse_check_button_pressed(mb_left))
 	
 	timer = room_speed * 1;
 	alarm[0] = room_speed * 1;
-	image_speed = 0.5;
+	image_speed = 0.3;
 	timer -= 1;
 	
 	audio_play_sound(sfx_cast_swoosh, 10, false);

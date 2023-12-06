@@ -10,6 +10,18 @@ rod_tip_y = y + 50;
 is_fishing = false;
 is_casting = false;
 
+if (obj_equipmentBox.inventory[0] != -1)
+{
+	var rod = obj_equipmentBox.inventory[0];
+	
+	if (rod == obj_rod_improved)
+		sprite_index = spr_improved_rod_anim;
+	else if (rod == obj_rod_superb)
+		sprite_index = spr_super_rod_anim;
+	else
+		sprite_index = spr_stick_rod_anim;
+}
+
 image_speed = 0;
 room_speed = 30;
 

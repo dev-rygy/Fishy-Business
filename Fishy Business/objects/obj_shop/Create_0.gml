@@ -3,7 +3,7 @@
 
 shopOpen = false;
 global.shop = false
-global.money = 100
+global.money = 15
 global.inv = ds_list_create()
 selected = 0
 items = array_create(9, -1);
@@ -23,8 +23,8 @@ display_set_gui_size(1366,768)
 guiWidth = display_get_gui_width()
 guiHeight = display_get_gui_height()
 
-menuWidth= guiWidth*.3
+menuWidth= guiWidth*.3;
 
-menuMargin = guiWidth * .1
+menuMargin = guiWidth * .1;
 
-previewWidth = (guiWidth- (menuWidth+menuMargin))
+previewWidth = (guiWidth- (menuWidth+menuMargin));

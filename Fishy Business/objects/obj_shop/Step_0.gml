@@ -2,12 +2,10 @@
 // You can write your code in this editor
 
 
-if (keyboard_check(vk_space)){
-	
-	shopOpen = true
-	global.shop = true
-	
-	
+if (keyboard_check(vk_space))
+{
+	//shopOpen = true
+	//global.shop = true
 }
 else if (shopOpen)&& (keyboard_check(vk_escape)){
 	

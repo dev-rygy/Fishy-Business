@@ -24,6 +24,8 @@ if (is_caught && game_state == 3)
 	//Cont. Button
 	instance_create_layer(room_width/2, room_height/2 + 280, "Buttons", obj_continue_button)
 	
+	audio_play_sound(sfx_fish_caught, 10, false);
+	
 	InventoryAdd(obj_inventory, current_fish.my_item);
 	is_caught = false;
 }
@@ -48,6 +50,7 @@ if (game_state == 4)
 	audio_stop_sound(sfx_fish_fight);
 	obj_fishing_rod.started_reeling = false
 	obj_fishing_rod.tension_force_current = 0;
+	obj_fishing_rod.percentage_shake = 0;
 	
 	game_state = 1;
 }
