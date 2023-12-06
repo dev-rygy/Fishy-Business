@@ -3,7 +3,7 @@
 
 shopOpen = false;
 global.shop = false
-global.money = 999
+global.money = 15
 global.inv = ds_list_create()
 selected = 0
 items = array_create(9, -1);

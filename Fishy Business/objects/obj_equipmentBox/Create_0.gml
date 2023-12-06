@@ -4,6 +4,6 @@
 				   
 //fish, bait, lines, 
 #macro EQUIPMENT_SLOTS 3
-rowLength = 1
+rowLength = 1;
 self.inventory = array_create(EQUIPMENT_SLOTS, -1);
 randomize();
