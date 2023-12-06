@@ -45,6 +45,7 @@ if (game_state == 4)
 	obj_fishing_rod.tension_meter_current_ui = obj_fishing_rod.tension_meter_ymin + obj_fishing_rod.tension_meter_current;
 	
 	audio_stop_sound(sfx_reel);
+	audio_stop_sound(sfx_fish_fight);
 	obj_fishing_rod.started_reeling = false
 	obj_fishing_rod.tension_force_current = 0;
 	

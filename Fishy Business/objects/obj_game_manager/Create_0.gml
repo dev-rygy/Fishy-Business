@@ -13,3 +13,8 @@ game_state = 0;
 current_fish = noone;	// Current fish that is latched onto the rod
 
 is_caught = false;
+
+if (room_get_name(room) == "rm_lake")
+{
+	audio_play_sound(sfx_lake_ambience, 10, true);
+}
