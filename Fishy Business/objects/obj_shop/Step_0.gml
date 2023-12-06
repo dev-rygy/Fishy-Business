@@ -9,8 +9,8 @@ if (keyboard_check(vk_space))
 }
 else if (shopOpen) && (keyboard_check(vk_escape)){
 	
-	shopOpen = false
-	global.shop = false
+	shopOpen = false;
+	global.shop = false;
 }
 
 if (shopOpen)
@@ -39,7 +39,7 @@ if (shopOpen)
 	if (keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))){
 	
 	selected--;
-	if (selected <0) selected = itemCount-1
+	if (selected < 0) selected = itemCount-1
 	}
 
 	var item = items[selected].name;
