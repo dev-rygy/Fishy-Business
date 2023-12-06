@@ -73,7 +73,5 @@ function InventorySwap(objectFrom, slotFrom, objectTo, slotTo)
 
 function displayInventory()
 {
-self.visible = true
-
-	
+	self.visible = true;
 }

@@ -50,7 +50,7 @@
   "origin": 4,
   "parent": {
     "name": "inventory",
-    "path": "folders/Sprites/inventory.yy",
+    "path": "folders/Sprites/UI/inventory.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
