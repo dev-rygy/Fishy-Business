@@ -11,8 +11,8 @@ if (invState) {
 
 
 	for (var i = 0; i <INVENTORY_SLOTS; i += 1) {
-		var xx = x + (i mod rowLength) * 36 + 12;
-		var yy = y + (i div  rowLength)* 36 + 12;
+		var xx = x + (i mod rowLength) * 36 + 17;
+		var yy = y + (i div  rowLength)* 36 + 17;
 		var hover = (obj_mouse.inventoryHover == id) && (obj_mouse.slotHover == i)
 		draw_sprite(sSlot,hover,xx,yy)
 		if (self.inventory[i] != -1)
